@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/gobuffalo/cli/internal/genny/newapp/core"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/core"
 )
 
 // Options for API applications

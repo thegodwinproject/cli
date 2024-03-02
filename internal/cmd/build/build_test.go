@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/testhelpers"
 )
 
 func TestBuild(t *testing.T) {

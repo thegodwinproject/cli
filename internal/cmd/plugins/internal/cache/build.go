@@ -3,8 +3,8 @@ package cache
 import (
 	"os"
 
-	"github.com/gobuffalo/cli/internal/plugins"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/plugins"
 )
 
 // BuildCmd rebuilds the plugins cache

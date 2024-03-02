@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gobuffalo/cli/internal/runtime"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/genny/v2"
+	"github.com/thegodwinproject/cli/internal/runtime"
 )
 
 func ask(q string) bool {

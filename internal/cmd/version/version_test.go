@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package version
@@ -5,8 +6,8 @@ package version
 import (
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/testhelpers"
 )
 
 func TestVersion(t *testing.T) {

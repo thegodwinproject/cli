@@ -3,8 +3,8 @@ package add
 import (
 	"bytes"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
+	"github.com/thegodwinproject/cli/internal/plugins/plugdeps"
 )
 
 // New add plugin to the config file

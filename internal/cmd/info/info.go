@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gobuffalo/clara/v2/genny/rx"
-	"github.com/gobuffalo/cli/internal/genny/info"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/genny/info"
 )
 
 func runE(cmd *cobra.Command, args []string) error {

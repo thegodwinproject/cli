@@ -3,10 +3,10 @@ package build
 import (
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
-	"github.com/gobuffalo/cli/internal/genny/testrunner"
 	"github.com/gobuffalo/genny/v2/gentest"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/web"
+	"github.com/thegodwinproject/cli/internal/genny/testrunner"
 )
 
 func Test_transformMain(t *testing.T) {

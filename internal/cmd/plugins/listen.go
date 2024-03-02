@@ -3,10 +3,10 @@ package plugins
 import (
 	"context"
 
-	"github.com/gobuffalo/cli/internal/genny/plugins/install"
-	"github.com/gobuffalo/cli/internal/plugins"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/genny/v2"
+	"github.com/thegodwinproject/cli/internal/genny/plugins/install"
+	"github.com/thegodwinproject/cli/internal/plugins"
 )
 
 // Listen is listener for plugin events pipeline

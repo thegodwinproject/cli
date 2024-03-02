@@ -1,8 +1,8 @@
 package plugins
 
 import (
-	"github.com/gobuffalo/cli/internal/cmd/plugins/internal/cache"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/cmd/plugins/internal/cache"
 )
 
 // cacheCmd represents the cache command

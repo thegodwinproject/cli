@@ -5,9 +5,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/gobuffalo/cli/internal/genny/fix"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/genny/fix"
 )
 
 // run all compatible checks

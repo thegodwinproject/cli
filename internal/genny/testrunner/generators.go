@@ -1,10 +1,10 @@
 package testrunner
 
 import (
-	"github.com/gobuffalo/cli/internal/genny/newapp/api"
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/gentest"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/api"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/web"
 )
 
 func WebApp(opts *web.Options) (*genny.Runner, error) {

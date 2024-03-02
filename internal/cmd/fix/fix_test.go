@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/testhelpers"
 )
 
 // The tests here are quite slow, so we only run them on linux.

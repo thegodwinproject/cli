@@ -4,7 +4,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -s -w -X "github.com/gobuffalo/cli/internal/runtime.Version={{ .Tag }}"
+      - -s -w -X "github.com/thegodwinproject/cli/internal/runtime.Version={{ .Tag }}"
     goos:
       - darwin
       - linux
@@ -38,7 +38,7 @@ changelog:
 brews:
   - name: 'buffalo'
     tap:
-      owner: 'gobuffalo'
+      owner: 'thegodwinproject'
       name: 'homebrew-tap'
     install: |
       bin.install "buffalo"
@@ -46,8 +46,8 @@ brews:
 dockers:
   - 
     image_templates:
-      - gobuffalo/buffalo:{{ .Tag }}
-      - gobuffalo/buffalo:latest
+      - thegodwinproject/buffalo:{{ .Tag }}
+      - thegodwinproject/buffalo:latest
     dockerfile: 'Dockerfile.build'
     goos: linux
     goarch: amd64
@@ -55,8 +55,8 @@ dockers:
 
   - 
     image_templates:
-      - gobuffalo/buffalo:{{ .Tag }}-slim
-      - gobuffalo/buffalo:latest-slim
+      - thegodwinproject/buffalo:{{ .Tag }}-slim
+      - thegodwinporject/buffalo:latest-slim
     dockerfile: 'Dockerfile.slim.build'
     goos: linux
     goarch: amd64

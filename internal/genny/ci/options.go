@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gobuffalo/cli/internal/runtime"
 	"github.com/gobuffalo/meta"
 	"github.com/gobuffalo/pop/v6"
+	"github.com/thegodwinproject/cli/internal/runtime"
 )
 
 // Available CI implementations

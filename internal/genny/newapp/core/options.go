@@ -6,12 +6,12 @@ import (
 	"strings"
 
 	"github.com/gobuffalo/buffalo-pop/v3/genny/newapp"
-	"github.com/gobuffalo/cli/internal/genny/ci"
-	"github.com/gobuffalo/cli/internal/genny/docker"
-	"github.com/gobuffalo/cli/internal/genny/refresh"
-	"github.com/gobuffalo/cli/internal/genny/vcs"
-	"github.com/gobuffalo/cli/internal/runtime"
 	"github.com/gobuffalo/meta"
+	"github.com/thegodwinproject/cli/internal/genny/ci"
+	"github.com/thegodwinproject/cli/internal/genny/docker"
+	"github.com/thegodwinproject/cli/internal/genny/refresh"
+	"github.com/thegodwinproject/cli/internal/genny/vcs"
+	"github.com/thegodwinproject/cli/internal/runtime"
 )
 
 // Options for a new Buffalo application

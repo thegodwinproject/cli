@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/meta"
+	"github.com/thegodwinproject/cli/internal/plugins/plugdeps"
 )
 
 // Options container for passing needed info for

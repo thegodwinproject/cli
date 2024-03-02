@@ -3,9 +3,9 @@ package cmd
 import (
 	"sync"
 
-	"github.com/gobuffalo/cli/internal/plugins"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/plugins"
 )
 
 var _plugs plugins.List

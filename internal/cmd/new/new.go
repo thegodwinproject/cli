@@ -5,17 +5,17 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/gobuffalo/cli/internal/genny/assets/standard"
-	"github.com/gobuffalo/cli/internal/genny/assets/webpack"
-	"github.com/gobuffalo/cli/internal/genny/newapp/api"
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
-	"github.com/gobuffalo/cli/internal/genny/vcs"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/gogen"
 	"github.com/gobuffalo/logger"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
+	"github.com/thegodwinproject/cli/internal/genny/assets/standard"
+	"github.com/thegodwinproject/cli/internal/genny/assets/webpack"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/api"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/web"
+	"github.com/thegodwinproject/cli/internal/genny/vcs"
 )
 
 func RunE(cmd *cobra.Command, args []string) error {

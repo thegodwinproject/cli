@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/testhelpers"
 )
 
 func TestNew(t *testing.T) {

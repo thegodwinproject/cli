@@ -7,13 +7,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/genny/assets/webpack"
-	"github.com/gobuffalo/cli/internal/genny/newapp/core"
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
-	"github.com/gobuffalo/cli/internal/genny/testrunner"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/meta"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/genny/assets/webpack"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/core"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/web"
+	"github.com/thegodwinproject/cli/internal/genny/testrunner"
 )
 
 func Test_assets(t *testing.T) {

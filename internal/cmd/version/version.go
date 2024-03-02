@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/gobuffalo/cli/internal/runtime"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/runtime"
 )
 
 func run(c *cobra.Command, args []string) {

@@ -2,9 +2,9 @@ package info
 
 import (
 	"github.com/gobuffalo/clara/v2/genny/rx"
-	"github.com/gobuffalo/cli/internal/genny/info"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/genny/info"
 )
 
 var (

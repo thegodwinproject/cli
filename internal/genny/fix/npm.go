@@ -7,9 +7,9 @@ import (
 	"html/template"
 	"os/exec"
 
-	"github.com/gobuffalo/cli/internal/genny/assets/webpack"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
+	"github.com/thegodwinproject/cli/internal/genny/assets/webpack"
 )
 
 // default scripts for package.json

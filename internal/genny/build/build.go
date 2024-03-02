@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gobuffalo/cli/internal/runtime"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/plushgen"
 	"github.com/gobuffalo/plush/v4"
+	"github.com/thegodwinproject/cli/internal/runtime"
 )
 
 //go:embed templates/*

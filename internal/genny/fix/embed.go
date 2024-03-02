@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/gobuffalo/cli/internal/genny/newapp/api"
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
 	"github.com/gobuffalo/genny/v2"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/api"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/web"
 )
 
 func FixEmbed(opts *Options) genny.RunFn {

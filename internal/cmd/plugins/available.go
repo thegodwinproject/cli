@@ -1,8 +1,8 @@
 package plugins
 
 import (
-	"github.com/gobuffalo/cli/internal/plugins/plugcmds"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/plugins/plugcmds"
 )
 
 // Available used to manage all of the available commands

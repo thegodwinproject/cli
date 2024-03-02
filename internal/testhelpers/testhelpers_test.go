@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/testhelpers"
 )
 
 func Test_EnsureBuffaloCMD(t *testing.T) {

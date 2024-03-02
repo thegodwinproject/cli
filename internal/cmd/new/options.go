@@ -9,14 +9,14 @@ import (
 	"strings"
 
 	pop "github.com/gobuffalo/buffalo-pop/v3/genny/newapp"
-	"github.com/gobuffalo/cli/internal/genny/ci"
-	"github.com/gobuffalo/cli/internal/genny/docker"
-	"github.com/gobuffalo/cli/internal/genny/newapp/core"
-	"github.com/gobuffalo/cli/internal/genny/refresh"
-	"github.com/gobuffalo/cli/internal/genny/vcs"
 	fname "github.com/gobuffalo/flect/name"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/viper"
+	"github.com/thegodwinproject/cli/internal/genny/ci"
+	"github.com/thegodwinproject/cli/internal/genny/docker"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/core"
+	"github.com/thegodwinproject/cli/internal/genny/refresh"
+	"github.com/thegodwinproject/cli/internal/genny/vcs"
 )
 
 var configError error

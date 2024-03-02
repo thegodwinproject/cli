@@ -6,9 +6,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/gobuffalo/cli/internal/plugins"
 	"github.com/gobuffalo/events"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/plugins"
 )
 
 // NewAvailable returns a fully formed Available type
@@ -61,6 +61,7 @@ func (a *Available) Commands() []*cobra.Command {
 // command should live below.
 //
 // Special "commands":
+//
 //	"root" - is the `buffalo` command
 //	"events" - listens for emitted events
 func (a *Available) Add(bufCmd string, cmd *cobra.Command) error {
@@ -85,6 +86,7 @@ func (a *Available) Add(bufCmd string, cmd *cobra.Command) error {
 // Mount all of the commands that are available
 // on to the other command. This is the recommended
 // approach for using Available.
+//
 //	a.Mount(rootCmd)
 func (a *Available) Mount(cmd *cobra.Command) {
 	// mount all the cmds on to the cobra command

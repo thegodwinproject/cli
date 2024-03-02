@@ -3,9 +3,9 @@ package plugins
 import (
 	"bytes"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
+	"github.com/thegodwinproject/cli/internal/plugins/plugdeps"
 )
 
 // NewEncodePluginsRunner will return a runner that will encode the plugins file

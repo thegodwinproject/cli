@@ -3,15 +3,15 @@ package core
 import (
 	"errors"
 
-	"github.com/gobuffalo/cli/internal/genny/ci"
-	"github.com/gobuffalo/cli/internal/genny/docker"
-	"github.com/gobuffalo/cli/internal/genny/plugins/install"
-	"github.com/gobuffalo/cli/internal/genny/refresh"
+	"github.com/thegodwinproject/cli/internal/genny/ci"
+	"github.com/thegodwinproject/cli/internal/genny/docker"
+	"github.com/thegodwinproject/cli/internal/genny/plugins/install"
+	"github.com/thegodwinproject/cli/internal/genny/refresh"
 
 	pop "github.com/gobuffalo/buffalo-pop/v3/genny/newapp"
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
+	"github.com/thegodwinproject/cli/internal/plugins/plugdeps"
 )
 
 // New generator for creating a Buffalo application

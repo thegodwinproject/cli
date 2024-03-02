@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/gobuffalo/cli/internal/genny/assets/webpack"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
+	"github.com/thegodwinproject/cli/internal/genny/assets/webpack"
 )
 
 // WebpackCheck will compare the current default Buffalo

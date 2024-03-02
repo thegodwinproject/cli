@@ -5,9 +5,9 @@ import (
 	"html/template"
 	"io/fs"
 
-	"github.com/gobuffalo/cli/internal/genny/newapp/core"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/gogen"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/core"
 )
 
 //go:embed templates/*

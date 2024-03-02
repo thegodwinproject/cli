@@ -3,12 +3,12 @@ package generate
 import (
 	"context"
 
-	"github.com/gobuffalo/cli/internal/genny/mail"
 	"github.com/gobuffalo/flect/name"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/gogen"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/genny/mail"
 )
 
 var mailOptions = struct {

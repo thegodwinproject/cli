@@ -8,8 +8,8 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	pluginsin "github.com/gobuffalo/cli/internal/plugins"
 	"github.com/spf13/cobra"
+	pluginsin "github.com/thegodwinproject/cli/internal/plugins"
 )
 
 var listCmd = &cobra.Command{

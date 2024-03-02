@@ -3,8 +3,8 @@ package fix
 import (
 	"fmt"
 
-	"github.com/gobuffalo/cli/internal/runtime"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/runtime"
 )
 
 // yesToAll will be used by the command to skip the confirmation

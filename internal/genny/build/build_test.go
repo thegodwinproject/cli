@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
-	"github.com/gobuffalo/cli/internal/genny/testrunner"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/meta"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/cli/internal/genny/newapp/web"
+	"github.com/thegodwinproject/cli/internal/genny/testrunner"
 )
 
 var eq = func(r *require.Assertions, s string, c *exec.Cmd) {

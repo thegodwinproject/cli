@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/gobuffalo/cli/internal/genny/docker"
 	"github.com/gobuffalo/genny/v2"
+	"github.com/thegodwinproject/cli/internal/genny/docker"
 )
 
 func FixDocker(opts *Options) genny.RunFn {

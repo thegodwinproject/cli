@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gobuffalo/cli/internal/genny/actions"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/logger"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/genny/actions"
 )
 
 var actionOptions = struct {

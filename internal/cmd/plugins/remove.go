@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/cobra"
+	"github.com/thegodwinproject/cli/internal/plugins/plugdeps"
 )
 
 var removeOptions = struct {
